@@ -13,5 +13,5 @@ setup(name='felix_library',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/felix_library-run'],
+      scripts=['scripts/felix_library-run','scripts/felixattack'],
       zip_safe=False)
